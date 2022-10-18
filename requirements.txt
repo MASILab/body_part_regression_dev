@@ -1,0 +1,5 @@
+
+torch>=1.7
+monai[nibabel, skimage, pillow, tensorboard, gdown, ignite, torchvision, itk, tqdm, lmdb, psutil, openslide, fire]>=1.0.0
+python-docx>=0.8.11
+
