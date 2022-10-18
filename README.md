@@ -6,26 +6,26 @@ The body part regression usage pipelines.
 
 Version 1: The body part regression model trained with basic unet with extensive datasets. 
 
-![](./img/sample1.png) <br>
+![Alt text](./img/sample1.png)
 BPR identification of upper bound given an abodmen score range
-![](./img/sample2.png) <br>
+![Alt text](./img/sample2.png)
 BPR identification of lower bound given an abodmen score range
-![](./img/sample3.png) <br>
+![Alt text](./img/sample3.png)
 Coronal view of the BPR identification bounds
 
-# Input images
+# Input Images
 The nii.gz format NIFTI files are required. Check where the CT images are axial reconstrcuted and in 512x512xz shape. 
 Put CT images in 
 ```
 <root_path>/datasets/images
 ```
 
-## Training configuration
+## Training Configuration
 
 The training was performed with at least 16GB-memory GPUs.
 
 
-## commands example
+## Commands Example
 
 Execute :
 
@@ -48,7 +48,7 @@ The BPR doc reports will be generated in:
 ```
 
 A sample output report: 
-![](./img/report.png) <br>
+![Alt text](./img/report.png)
 
 
 # Disclaimer
