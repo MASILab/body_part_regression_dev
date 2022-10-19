@@ -8,7 +8,7 @@ Version 1: The body part regression model trained with basic unet with extensive
 
 ![Alt text](./docs/img/sample3.png)
 
-Coronal view of the BPR identification bounds
+Coronal view of the BPR identification bounds from heart to pelvis.
 
 # Input Images
 The nii.gz format NIFTI files are required. Check where the CT images are axial reconstrcuted and in 512x512xz shape. 
