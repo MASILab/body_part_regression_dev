@@ -6,14 +6,6 @@ The body part regression usage pipelines.
 
 Version 1: The body part regression model trained with basic unet with extensive datasets. 
 
-| ![Alt text](./docs/img/sample1.png) | ![Alt text](./docs/img/sample2.png) |
-
-BPR identification of upper bound given an abodmen score range
-
-
-
-BPR identification of lower bound given an abodmen score range
-
 ![Alt text](./docs/img/sample3.png)
 
 Coronal view of the BPR identification bounds
